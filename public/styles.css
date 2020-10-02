@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+  margin: 40px;
+}
+.loginContainer{
+  text-align: center;
+  position:relative;
+  top: 200px;
+}
+.loginCard{
+  position: relative;
+  text-align: left;
+  width: 300px;
+  left: 400px;
+}

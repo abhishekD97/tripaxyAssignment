@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login Page</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container loginContainer">
+    <div class="card loginCard">
+      <h3 style="margin-left:30px">Please Enter Details</h3>
+      <form action="/" method="post">
+        <input class="form-control" placeholder="Enter Name" type="text" name="name" value=""><br>
+        <input class="form-control" placeholder="Enter Email" type="email" name="email" value=""><br>
+        <select class="form-control" id="role" name="role">
+          <option value="Customer">Customer</option>
+          <option value="Manager">Manager</option>
+        </select><br>
+        <button class="btn btn-block btn-primary" type = "submit" name = "button" onclick = "setUsername()">Chat </button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
